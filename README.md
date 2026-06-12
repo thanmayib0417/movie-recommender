@@ -1,4 +1,4 @@
-# 🎬 CineMatch — Hybrid Movie Recommender
+#CineMatch — Hybrid Movie Recommender
 
 A portfolio-grade hybrid recommender system combining **Collaborative Filtering (SVD)** and **Content-Based Filtering (TF-IDF)** on the MovieLens dataset, with a Streamlit UI and TMDB movie poster integration.
 
@@ -123,10 +123,9 @@ For production scale, swap in [MovieLens 25M](https://grouplens.org/datasets/mov
 ## Tech Stack
 
 | Library | Purpose |
-|---------|---------|
-| pandas, numpy | Data processing |
-| scikit-learn | TF-IDF, cosine similarity, normalization |
-| scikit-surprise | SVD collaborative filtering |
-| streamlit | Web UI |
-| requests + python-dotenv | TMDB API + env management |
-| matplotlib, seaborn | EDA visualizations |
+| pandas, numpy - Data processing |
+| scikit-learn - TF-IDF, cosine similarity, normalization |
+| scikit-surprise - SVD collaborative filtering |
+| streamlit - Web UI |
+| requests + python-dotenv - TMDB API + env management |
+| matplotlib, seaborn - EDA visualizations |
