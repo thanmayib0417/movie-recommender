@@ -1,0 +1,25 @@
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Collaborative Filtering
+scikit-surprise>=1.1.3
+
+# App UI
+streamlit>=1.32.0
+
+# TMDB API + env loading
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Visualization (EDA notebook)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: semantic embeddings
+# sentence-transformers>=2.2.0
+
+# Optional: experiment tracking
+# mlflow>=2.11.0
